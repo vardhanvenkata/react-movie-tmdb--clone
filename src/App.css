@@ -1,0 +1,23 @@
+body{
+  font-family: "Source-sans-pro",Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  height: auto;
+  background-color: white;
+}
+
+div.page_wrap{
+  display: flex;
+  flex:1 1 auto;
+  min-height: 100%;
+  height: auto;
+  position: relative;
+  top:0;
+  left:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
