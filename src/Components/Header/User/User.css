@@ -1,0 +1,41 @@
+.user-popup{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.user-popup.show{
+    display: flex;
+    position: absolute;
+    margin-right: 40px;
+    width: 160px;
+    height: 80px;
+    top:45px;
+    justify-content: center;
+    align-items: center;
+    background:#fff;
+    opacity: 0.9;
+    color: #000;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+.user-popup.show ul li{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    color: #000;
+    padding-left: 10px;
+}
+.user-popup.show ul li a{
+    color: #000;
+    padding-left: 4px;
+    padding-right: 31px;
+    padding-bottom: 4px;
+}
+.user-popup.show  hr{
+    width:160px;
+    margin-right: 30px;
+    border-radius: 8px;
+    opacity: 0.3;
+}   
